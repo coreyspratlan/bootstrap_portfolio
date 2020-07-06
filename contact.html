@@ -36,38 +36,38 @@
                     <a class="nav-link" href="portfolio.html"><b>Portfolio</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html"><b>Contact</b></a>
+                    <a class="nav-link" href="contact.html"><b>Contact</b></a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div class="contaier">
-        <div class="row">
+        <div :root class="row justify-content-center mt-2">
             <div col-md-12>
 
 
-                <div class="center" class="card border-secondary mb-3" style="min-width: 20rem;">
-                    <div class="header" class="card-header">Make A Connection</div>
+                <div class="contactcard border-secondary mb-3">
+                    <div class="card-header header">Make A Connection</div>
                     <div class="card-body">
                         <form>
                             <div class="form-group">
-                                <label class="label" for="formGroupExampleInput"><b>Name</b></label>
-                                <input type="text" class="form-control" id="formGroupExampleInput"
-                                    placeholder="Example input placeholder">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" name="name"
+                                    placeholder="Ex: John Doe">
                             </div>
                             <div class="form-group">
-                                <label class="label" for="formGroupExampleInput2"><b>Email</b></label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2"
-                                    placeholder="Another input placeholder">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" id="email" name="email"
+                                    placeholder="example@example.com">
 
                                 <div class="form-group">
-                                    <label class="label" for="exampleTextarea"><b>Message</b></label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                                 </div>
                             </div>
                         </form>
-                        <button type="button" class="btn btn-secondary"><b>Submit</b></button>
+                        <button type="button" class="btn btn-secondary">Submit</button>
                     </div>
                 </div>
             </div>
