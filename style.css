@@ -11,6 +11,11 @@
     color: white;
     margin: auto 0;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
  .aboutmecontainer {
     width: 75%;
